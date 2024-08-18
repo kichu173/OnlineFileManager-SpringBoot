@@ -13,6 +13,7 @@ import java.util.Objects;
 @Service
 public class FileStorageService {
 
+    //! Modify according to your local environment
     public static final String STORAGE_DIRECTORY = "C:\\Users\\kk000000\\OneDrive - Reed Elsevier Group ICO Reed Elsevier Inc\\Documents\\Project\\storage";
 
     public void save(MultipartFile fileToSave) throws IOException {
